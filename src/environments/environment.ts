@@ -1,3 +1,3 @@
 export const environment = {
-  api: "https://localhost:7041/api/",
+  api: "https://fake-cfdi-generator-backend.azurewebsites.net/api/",
 };
