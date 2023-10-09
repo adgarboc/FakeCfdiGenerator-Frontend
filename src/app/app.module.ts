@@ -12,24 +12,28 @@ import {InputTextModule} from "primeng/inputtext";
 import {CheckboxModule} from "primeng/checkbox";
 import {HttpClientModule} from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
+import {MenubarModule} from "primeng/menubar";
+import {InputSwitchModule} from "primeng/inputswitch";
 
 @NgModule({
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    InputTextModule,
-    CheckboxModule,
-    ButtonModule,
-    RadioButtonModule,
-    InputTextareaModule,
-    DropdownModule,
-    FormsModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        InputTextModule,
+        CheckboxModule,
+        ButtonModule,
+        RadioButtonModule,
+        InputTextareaModule,
+        DropdownModule,
+        FormsModule,
+        AppRoutingModule,
+        MenubarModule,
+        InputSwitchModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
